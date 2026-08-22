@@ -67,7 +67,7 @@ jobs:
               pass
           final = url.startswith("https://")
           bad = []
-          for p in sorted(glob.glob("work/notebooks/*.ipynb")):
+          for p in sorted(glob.glob("work/notebooks/**/*.ipynb", recursive=True)):
               try:
                   nb = json.load(open(p))
               except Exception:
