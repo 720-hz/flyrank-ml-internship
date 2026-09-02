@@ -1,0 +1,59 @@
+{
+  "n_rows": 30000,
+  "n_clients": 32,
+  "full_set_decline_rate": 0.542,
+  "held_out_client_grouped_validation": {
+    "base_rate": 0.391,
+    "roc_auc": 0.708,
+    "precision_at_20": 0.75,
+    "precision_at_50": 0.72,
+    "precision_at_100": 0.66
+  },
+  "risk_threshold_75th_pct": 0.6013,
+  "demand_cutoff_median_impressions_90d": 828.0,
+  "action_counts": {
+    "review_ctr": 11966,
+    "monitor": 9329,
+    "refresh_and_review_ctr": 5092,
+    "refresh_content": 2408,
+    "no_action_insufficient_data": 1205
+  },
+  "archetype_counts": {
+    "steady_performer": 8751,
+    "hidden_gem": 8107,
+    "at_risk_visible": 5092,
+    "ctr_watch": 3859,
+    "quiet_decliner": 2408,
+    "data_quality_gap": 1205,
+    "champion": 578
+  },
+  "no_position_data_n": 1205,
+  "no_position_data_decline_rate": 0.0066,
+  "has_position_decline_rate": 0.5645,
+  "decay_refresh_insight_verdict": "MIXED -- staleness does not climb monotonically with decline rate (see work/figures/decay_refresh_insight.svg)",
+  "safe_numeric_features": [
+    "search_volume",
+    "competition",
+    "cpc",
+    "word_count",
+    "char_count",
+    "content_age_days",
+    "days_since_last_update",
+    "avg_position"
+  ],
+  "excluded_window_overlap_features": [
+    "impressions_90d",
+    "clicks_90d",
+    "pageviews_90d",
+    "sessions_90d",
+    "users_90d",
+    "engaged_sessions_90d",
+    "ai_sessions_90d",
+    "scroll_events_90d",
+    "ctr",
+    "engagement_rate",
+    "scroll_rate",
+    "ai_traffic_pct"
+  ],
+  "random_state": 42
+}
