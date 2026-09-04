@@ -160,17 +160,16 @@ Full list, with more detail on each point, is in the paper's
 
 ## Built with AI
 
-<!-- TODO (you, before posting): this paragraph is a first draft. Edit it so it accurately
-     reflects YOUR actual split of work across the whole project (Weeks 1-8), not just this
-     session. See the chat for guidance on how to write this honestly. -->
-
-This project was built with Claude (Anthropic) as a coding and writing partner: drafting
-notebook cells and pipeline code, writing the prose for the deployed paper and this README, and
-following the validation/leakage-audit conventions established earlier in the project. I directed
-the approach (lane choice, feature exclusions, the label definition, what to test and why),
-reviewed every output, and cross-checked the headline numbers in the paper against the committed
-metrics receipts (`work/outputs/action_playbook_metrics.json`) before shipping — the notebook's
-own Section 6 re-verifies this on every run.
+This project was built with Claude (Anthropic) as a research and coding partner throughout. I did
+the research myself, worked through multiple candidate approaches at each stage — feature sets,
+model choices, validation design — and only settled on the final plan after iterating through
+those alternatives with Claude, rather than taking the first suggestion. Claude helped draft
+notebook cells, pipeline code, and the prose for the deployed paper and this README, but the
+decisions — the lane, the label definition, which features to exclude, the validation design —
+were mine. I double-checked and validated the outputs myself before shipping, including re-running
+the pipeline and cross-checking the headline numbers in the paper against the committed metrics
+receipts (`work/outputs/action_playbook_metrics.json`) — the notebook's own Section 6 re-verifies
+this on every run.
 
 ---
 
