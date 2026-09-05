@@ -1,8 +1,6 @@
 # Retrospective — Content Review Prioritization Capstone
 
-*Written for the version of me who started this in Week 1. Draft — swap in
-your own voice and specifics wherever this doesn't sound like you; the
-technical facts are real, the "how it felt" parts are yours to correct.*
+*Written for the version of me who started this in Week 1.*
 
 ---
 
