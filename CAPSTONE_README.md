@@ -173,6 +173,20 @@ this on every run.
 
 ---
 
+## Full submission package (FL-10 index)
+
+Everything for this track, in one place:
+
+- **This README** — what it does, setup, usage, architecture, eval results, limitations, AI use.
+- **Live paper:** https://720-hz.github.io/flyrank-ml-internship/
+- **Repo:** https://github.com/720-hz/flyrank-ml-internship
+- **Live demo video** (FL-09, 3–5 min, live end-to-end run): https://youtu.be/PRKaZWDSsMA
+- **[Retrospective](RETROSPECTIVE.md)** — Week-1-me vs. now, what changed, what's next.
+- **[Build-in-public post](BUILD_IN_PUBLIC_POST.md)** — the decision + limitation story, drafted here and posted publicly from this copy.
+- **Personal site:** https://720hz.is-a.dev/
+
+---
+
 ## Reproducibility
 
 Notebooks, in order: [Week 1 — question](work/notebooks/Week%201/w01_research_question.ipynb) ·
